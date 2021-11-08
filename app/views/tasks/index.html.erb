@@ -1,0 +1,11 @@
+<div class="container-sm">
+  <div>
+    <ul class='list-group cards'>
+      <% @tasks.each do |task| %>
+        <li class="card-category"><%= link_to task.title, task_path(task) %></li>
+      <% end %>
+    </ul>
+
+    <p><%= link_to 'Create a new task', new_path %></p>
+  </div>
+</div>

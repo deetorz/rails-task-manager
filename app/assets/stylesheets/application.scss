@@ -1,0 +1,14 @@
+@import "bootstrap/scss/bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+@import "/components/containers";
+@import "/components/cards";
+
+body {
+  padding-top: 20px;
+}
+
+.center-text {
+  text-align: center;
+}
+
